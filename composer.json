@@ -1,0 +1,29 @@
+{
+  "name": "maris/geo-vincenty-calculator",
+  "description": "Калькулятор Винценти.",
+  "license": "MIT",
+  "version": "0.0.1",
+  "authors": [
+    {
+      "name": "Марисов Николай Андреевич",
+      "email": "marisov123456789@mail.ru"
+    }
+  ],
+  "require": {
+    "php": ">=8.1",
+    "maris/geo-interfaces": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Maris\\Geo\\Vincenty\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Maris\\Geo\\Vincenty\\Tests\\": "tests/"
+    }
+  },
+  "require-dev": {
+    "phpunit/phpunit": "*"
+  }
+}
