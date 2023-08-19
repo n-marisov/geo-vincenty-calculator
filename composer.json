@@ -2,7 +2,7 @@
   "name": "maris/geo-vincenty-calculator",
   "description": "Калькулятор Винценти.",
   "license": "MIT",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "authors": [
     {
       "name": "Марисов Николай Андреевич",
